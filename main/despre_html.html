@@ -1,0 +1,116 @@
+<html>
+    <meta charset = utf-8>
+    <head>
+        <title>HTML</title>
+        <link rel="icon" href="../continut/favicon.ico" />
+        <link href="../continut/css/stil.css" rel="stylesheet" type="text/css" >
+    </head>
+    <body>
+        <header>
+            <h1 id="fundal">Programe web</h1>
+        </header>
+
+        <hr/>
+        <nav>
+            <a href="index.html" style="font-size:20px">Acasă</a> |
+            <a href="inregistreaza.html" style="font-size:20px">Înregistrează </a>|
+            <a href="video.html" style="font-size:20px">Video</a> |
+            <a href="desen.html" style="font-size:20px">Desen</a> |
+            <a href="despre_html.html" style="font-size:20px"> Despre</a> |
+            <a href="invat_js.html" style="font-size:20px">Învăț JS</a>
+          </nav> 
+        <hr/>
+
+        <h2>Limbajul HTML</h2>
+        <p>
+            <strong>HTML (HyperText Markup Language)</strong>
+            este un <i>limbaj de marcare</i> pentru a crea pagini web.
+        </p>
+        <div>
+            Un exemplu de cod html il gasiti in imaginea urmatoare
+            care se afla la adresa <a href="images/HTML_logo.png">
+                https://commons.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png.</a>
+            <br/>Imaginea are atributul <code>height</code> de valoare 147.
+            <br/><img src="../images/HTML_logo.png" height="147">
+        </div>
+        
+        <div>
+            <strong>Tag-urile</strong> html cele mai utilizate tabelelor sunt:
+        </div>
+        <table border="1">
+            <tr>
+                <td>table</td>
+                <td>defineste un tabel</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>un rand intr-un tabel</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>o celula intr-un tabel</td>
+            </tr>
+        </table>
+        <div>
+           <strong>Observatie:</strong>Pentru a pune un contur unui tabel se poate(
+               dar nu se recomanda) sa se puna atributul <code>border</code> = "1". 
+               <br/>La validare va da eroarea: <i>The border attribute on the table is obsolete</i>.
+        </div>
+        <p>
+            Formularele se pot crea cu ajutorul tag-ului <code>form</code> care poate 
+            contine tag-urile: <code>input, textarea, label, select, 
+                option, button.</code>
+            <br/>Pentru mai multe detalii consultati cursul sau tutorialul 
+            <a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms and Inputs</a> de la adresa <a href="https://www.w3schools.com/html/html_forms.asp">https://www.w3schools.com/html/html_forms.asp</a>.   
+        </p>
+        <div>
+            Un exemplu de formular este urmatorul:
+        </div>
+        <form>
+            <fieldset>
+                Nume: 
+                <input type="text" name="Nume" value="nume"
+                placeholder="Nume">
+                <br/>Prenume: 
+                <input type="text" name="Prenume" value="prenume"
+                placeholder="Prenume">
+                <br/>Parola:
+                <input type="password" name="Password" value="pass"
+                placeholder="Password"> 
+                <br/>Culoarea preferata:
+                <select>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="pink">Pink</option>
+                </select> 
+                <br/>Descriere:
+                <input type="text">
+                <br/><input type="checkbox">
+                Sunt de acord cu conditiile<br>
+                <br/><button>Inregistreaza</button>
+            </fieldset>
+        </form>
+        <p>
+            Pentru a crea liste se pot folosi tag-urile:
+        </p>
+        <p>
+            <ol>
+                <dt><ensp/>  i. <code>ul</code> - listă neordonată</dt>
+                <dt><nbsp/> ii. <code>ol</code> - listă ordonată</dt>
+                <dt>iii. <code>li</code> - item din listă</dt>
+                <dt><nbsp/> iv. <code>dl</code> - listă cu descrieri</dt>
+                <dt><ensp/>  v. <code>dt</code> - termen dintr-o listă cu descrieri</dt>
+                <dt><nbsp/> vi. <code>dd</code> - descrierea dintr-o listă cu descrieri</dt>
+            </ol>
+        </p>
+        <p>
+            Pentru a insera un document HTML în altul se poate folosi tag-ul <<code>iframe </code>>.
+            <br/>Astfel, exemplul de mai jos inserează conținutul de la adresa <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>.
+           <br/> <iframe src="https://html.spec.whatwg.org/multipage/"width="600"></iframe>
+        </p>
+        <footer>
+            <p>Posted by: Iustina Iosub</p>
+        </footer> 
+    </body>
+</html>

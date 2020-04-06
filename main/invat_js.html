@@ -1,0 +1,94 @@
+<html>
+    <meta charset = utf-8>
+    <head>
+        <title>Învăț JS</title>
+        <link href="../continut/css/stil.css" rel="stylesheet" type="text/css" >
+        <script src="js/script.js"></script>
+    </head>
+    <body onload="functie()">
+        <div class="clasa">
+            <header>
+                <h1 id="fundal">Programe web</h1>
+            </header>
+            <hr/>
+            <nav>
+                <a href="index.html" style="font-size:20px">Acasă</a> |
+                <a href="inregistreaza.html" style="font-size:20px">Înregistrează </a>|
+                <a href="video.html" style="font-size:20px">Video</a> |
+                <a href="desen.html" style="font-size:20px">Desen</a> |
+                <a href="despre_html.html" style="font-size:20px"> Despre</a> |
+                <a href="invat_js.html" style="font-size:20px">Învăț JS</a>
+            </nav> 
+            <hr/>
+        </div>
+
+        <h2 id="jspag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Învăț 💻 JavaScript</h2>
+
+        <aside>
+            <a href="#sect1">Secțiunea 1</a> <br />
+            <a href="#sect2">Secțiunea 2</a> <br />
+            <a href="#sect3">Secțiunea 3</a> <br />
+            <a href="#sect4">Secțiunea 4</a> <br />
+    
+        </aside>
+
+        <main>
+            <section id="sect1" class="section">
+                <div class=punct>Secțiunea 1: Informații</div>
+                <p id="date">Data: </p>
+                <p id="time">Ora: </p>
+            </section>
+
+            <section id="sect2" class="section">
+                <div class=punct>Secțiunea 2: Internet Loto</div>
+                <form>
+                    <fieldset class="field" id="Loto">
+                        <legend>Numere jucate</legend>
+                        <label for="number1">Numar 1</label>
+                        <input type="text" name="number1" id="number1" pattern="[A-Z0-9]" value ="01" size = 2 maxlength= "2"/> <br />
+                        <label for="number2">Numar 2</label>
+                        <input type="text" name="number2" id="number2" pattern="[A-Z0-9]" value ="AA" size = 2 maxlength= "2"/> <br />
+                        <label for="number3">Numar 3</label>
+                        <input type="text" name="number3" id="number3" pattern="[A-Z0-9]" value ="BB" size = 2 maxlength= "2"/> <br />
+                        <label for="number4">Numar 4</label>
+                        <input type="text" name="number4" id="number4" pattern="[A-Z0-9]" value ="3f" size = 2 maxlength= "2"/> <br />
+                        <label for="number5">Numar 5</label>
+                        <input type="text" name="number5" id="number5" pattern="[A-Z0-9]" value ="5c" size = 2 maxlength= "2"/> <br />
+                        <label for="number6">Numar 6</label>
+                        <input type="text" name="number6" id="number6" pattern="[A-Z0-9]" value ="23" size = 2 maxlength= "2"/> <br />
+                        <label for="number7">Numar 7</label>
+                        <input type="text" name="number7" id="number7" pattern="[A-Z0-9]" value ="19" size = 2 maxlength= "2"/> <br />
+                        <label for="number8">Numar 8</label>
+                        <input type="text" name="number8" id="number8" pattern="[A-Z0-9]" value ="6b" size = 2 maxlength= "2"/> <br />
+                    </fieldset>
+                    <button type="button" class="buton" onclick="lotoFunction()" > Joacă!</button>
+                </form>
+                <div id="intrari">Numerele jucate  </div>
+                <div id="extrase">Numerele extrase  </div>
+                <div id="nimerite">Apasa butonul "Joaca!" </div>
+            </section>
+            <section id="s3" class="section">
+                <div class=punct>Secțiunea 3. Canvas</div>
+                <form onchange="changeColor()">
+                    <label for="stroke">Contur: </label>
+                    <input type="color" id="stroke" name="stroke" />
+                    <label for="fill">Umplere</label>
+                    <input type="color" id="fill" name="fill" />
+                </form>
+    
+                <canvas onclick="mouseClickedOnCanvas(this)" width="600" height="400" id="canvas"></canvas>
+            </section>
+    
+    
+            <section id="s4" class="section">
+                <div class=punct>Secțiunea 4. Tabel</div>
+            </section>
+    
+    
+        </main>
+
+        <footer>
+            <p>Posted by: Iustina Iosub</p>
+        </footer> 
+    </body>
+</html>
