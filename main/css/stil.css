@@ -1,0 +1,302 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+#fundal {
+    /*background: #000000 url(/images/piano.png) 100% 100% no-repeat;*/
+    background-image: url(../images/key.jpg);
+    padding: 40px 5px;
+    color: white;
+}
+
+#videoimg {
+    background-image: url(../images/piano.png);
+    padding: 40px 5px;
+    color: black;
+    text-shadow: 0 0 3px rgb(43, 255, 0), 0 0 5px rgb(0, 204, 255);
+}
+
+#painting {
+    background-image: url(../images/1.jpg);
+    padding: 40px 5px;
+    color: black;
+    text-shadow: 0 0 3px rgb(43, 255, 0), 0 0 5px rgb(0, 204, 255);
+}
+
+nav {
+    background: rgb(21, 131, 17);
+    color: white;
+    padding: 5px 0px;
+    margin: 0px 0px;
+    border-top: 2px solid rgb(0, 255, 234);
+    border-bottom: 2px solid rgb(0, 255, 234);
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+nav a:hover {
+    background: rgb(0, 255, 234);
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 13px 5px;
+}
+
+/*.title {
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: #1aa879;
+    opacity: 1;
+    z-index: 1;
+}*/
+
+main {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    bottom: 20px;
+    /*height: 100%;*/
+    padding-bottom: 20px;
+    width: 75%;
+    overflow: hidden;
+}
+
+aside {
+    position: fixed;
+    top: 10px;
+    text-align: center;
+    margin: 0px 0px;
+    width: 2px;
+    height: 100%;
+    padding: 20px 0px 0px 0px;
+    border-right: 3px solid rgb(59, 202, 166);
+    background:rgb(0, 255, 234) ;
+    color: #182020;
+    transition-property: width;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+aside:hover{
+    width:100px;
+}
+
+aside a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px 5px;
+    margin: 20px 0px;
+}
+
+a, a.visited {
+    color: #64d3d3;
+}
+
+aside a:hover {
+    background: rgb(59, 202, 166);
+    color: #2c0402;
+    font-weight: bolder;
+    padding: 20px 5px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background:rgb(21, 131, 17);
+    color: #182020;
+    z-index: 1;
+    border-top: 3px solid rgb(0, 255, 234);
+}
+
+/*table {
+    border-collapse: collapse;
+    margin: 10px 10px;
+}
+
+td {
+    border: 1px solid #e4ffff;
+    padding: 3px;
+}*/
+
+ul#cuprins {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+ul#cuprins li {
+    padding: 10px 0px;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: rgb(116, 201, 250);
+    color: black;
+    font-weight: bolder;
+}
+
+.punct {
+    padding: 10px 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.field {
+    margin: 20px 5px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.field label {
+    padding: 10px 0px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+#Loto
+{
+    margin: 10px 2px;
+    padding: 2px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#Loto label {
+    padding: 10px 0px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+#Loto input
+{
+    display: inline-block;
+    width: 40px;
+}
+.form {
+    text-align: left;
+}
+
+.buton
+{
+    background-color: rgb(21, 131, 17);
+    padding: 10px;
+    width: 160px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.5em;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.buton:hover {
+    color: rgb(12, 51, 12);
+    text-shadow: 0px 0px 5px yellow;
+    box-shadow: 0px 0px 5px yellow;
+}
+
+
+button::first-letter {
+    font-size: 1.3em;
+}
+
+#nimerite
+{
+    font-size: 2em;
+    color: rgb(0, 255, 234);
+}
+
+div.transform {
+    display: inline-block;
+    width:100px;
+    background: #e4ffff;
+    text-align:center;
+    vertical-align: center;
+    padding:50px 0px;
+    color: #032b2b;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+  }
+  
+div.transform:hover {
+    width: 100%;
+}
+
+
+svg#desen
+{
+    padding:50px;
+    border:5px solid #797a1b;
+    border-radius: 100px 200px 300px;
+    background-color: #ddd167;
+}
+
+p{
+    margin:5px 0px;
+    padding:2px 0px;
+}
+
+.section
+{
+    margin: 10px;
+    padding: 5px 2px 2px 20px;
+    border: 4px double rgb(0, 255, 234);
+    border-radius: 20px;
+}
+
+@page{
+    size:landscape;
+}
+
+@media print{
+    .title, footer.jos {
+        display: none;
+    }
+
+
+    body{
+        padding:10px;
+        margin:10px;
+    }
+
+    main{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+
+
+    *{
+        color: black;
+        background-color: white;
+       
+    }
+
+    nav, aside{
+        display: none;
+    }
+}
+
+canvas{
+    width:90%;
+    display: center;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    
+}
